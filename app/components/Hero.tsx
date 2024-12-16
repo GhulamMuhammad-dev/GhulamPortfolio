@@ -3,8 +3,8 @@ import Button from "./UI/Button";
 
 export default function Hero() {
   return (
-    <section className="relative bg-background_color h-[90vh] flex items-center justify-center text-center ">
-      <div className=" z-10 absolute inset-0 h-full w-full  bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:128px_128px]"></div>
+    <section className="relative bg-background_color h-[100vh] flex items-center justify-center text-center ">
+      <div className=" z-10 absolute inset-0 h-full w-full  bg-[linear-gradient(to_right,#3a506b12_2px,transparent_2px),linear-gradient(to_bottom,#3a506b12_2px,transparent_2px)] bg-[size:64px_64px]"></div>
       <div className="container mx-auto z-20">
         <h1 className="text-hero font-bold text-white font-zentry  ">
           Hi, Im <span className="text-secondary">Ghulam Muhammad</span>

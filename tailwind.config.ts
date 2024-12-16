@@ -10,10 +10,10 @@ export default {
     extend: {
       colors: {
         background_color:"#111119",
-        primary: '#99d98c',
-        primary_hover: '#99d98c',
-        secondary: '#1a759f',
-        secondary_hover: '#168aad',
+        primary: '#3a506b',
+        primary_hover: '#1c2541',
+        secondary: '#9d4edd',
+        secondary_hover: '#3c096c',
 
       },
 

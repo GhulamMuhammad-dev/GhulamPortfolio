@@ -21,4 +21,14 @@ export const projects = [
       title: 'Portfolio Website',
       description: 'My personal portfolio showcasing my skills and projects.',
     },
+    {
+      id: '4',
+      title: 'Portfolio Website',
+      description: 'My personal portfolio showcasing my skills and projects.',
+    },
+    {
+      id: '5',
+      title: 'Portfolio Website',
+      description: 'My personal portfolio showcasing my skills and projects.',
+    },
   ];

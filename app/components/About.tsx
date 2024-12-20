@@ -6,9 +6,9 @@ export default function About() {
     <section id="about" className="py-16 bg-background_color text-white">
       <div className="container mx-auto px-6 md:px-12 lg:px-24 md:flex md:flex-col md:items-center ">
         {/* About Section */}
-        <div className="relative border-2 border-secondary rounded-lg p-6 flex flex-col md:flex-row  items-center gap-8 md:justify-center lg:w-3/4">
+        <div className="relative bg-white  rounded-lg p-6 flex flex-col md:flex-row  items-center gap-8 md:justify-center lg:w-3/4">
           {/* Image Container */}
-          <div className="rounded-lg bg-background_color p-2 w-3/4  md:w-1/3">
+          <div className="rounded-lg bg-white p-2 w-3/4  md:w-1/3">
             <Image
               src="/images/myimg.png"
               alt="Profile Image"
@@ -20,8 +20,8 @@ export default function About() {
 
           {/* About Text */}
           <div className="text-center md:text-left  flex flex-col lg:w-2/5  ">
-            <h2 className="text-2xl font-bold mb-4">About Me</h2>
-            <p className="text-gray-300 mb-6">
+            <h2 className="text-2xl font-bold mb-4 bg-secondary p-4 rounded-md">About Me</h2>
+            <p className="text-black mb-6">
               I’m a full-stack web and game developer passionate about creating
               interactive experiences and scalable solutions. With expertise in
               modern frameworks like React, Next.js, and Unity, I focus on
@@ -33,7 +33,7 @@ export default function About() {
                 href="https://github.com/your-profile"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary_hover hover:text-secondary p-2 rounded-full"
+                className="bg-black hover:text-secondary p-2 rounded-full"
               >
                 <FaGithub />
               </a>
@@ -41,7 +41,7 @@ export default function About() {
                 href="https://twitter.com/your-profile"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary_hover hover:text-secondary p-2 rounded-full"
+                className="bg-black hover:text-secondary p-2 rounded-full"
               >
                 <FaLinkedin />
               </a>
@@ -53,7 +53,7 @@ export default function About() {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
           {/* Experience Card */}
           <div className="bg-background_color p-6 rounded-lg border-2 border-primary shadow-lg">
-            <h3 className="text-lg font-bold mb-2">Experience</h3>
+            <h3 className="text-lg font-bold mb-2  bg-primary rounded-md p-4">Experience</h3>
             <p className="text-gray-400">
               Over 3 years of experience in web and game development, including
               expertise in 3D modeling and rendering.
@@ -62,7 +62,7 @@ export default function About() {
 
           {/* Skills Card */}
           <div className="bg-background_color p-6 rounded-lg border-2 border-primary shadow-lg">
-            <h3 className="text-lg font-bold mb-2">Skills</h3>
+            <h3 className="text-lg font-bold mb-2 bg-primary rounded-md p-4">Skills</h3>
             <p className="text-gray-400">
               JavaScript, TypeScript, React, Next.js, Unity, Tailwind CSS, C#,
               PostgreSQL, and more.
@@ -71,7 +71,7 @@ export default function About() {
 
           {/* Hobbies Card */}
           <div className="bg-background_color p-6 rounded-lg border-2 border-primary shadow-lg">
-            <h3 className="text-lg font-bold mb-2">Hobbies</h3>
+            <h3 className="text-lg font-bold mb-2 bg-primary rounded-md p-4">Hobbies</h3>
             <p className="text-gray-400">
               When I’m not coding, I enjoy designing games, creating 3D models,
               and experimenting with new technologies.
